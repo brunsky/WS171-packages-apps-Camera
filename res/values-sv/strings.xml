@@ -71,7 +71,7 @@
     <string name="pref_gallery_size_summary">"Välj visningsstorlek för bilder och videor"</string>
     <string name="pref_gallery_size_dialogtitle">"Bildstorlek"</string>
   <string-array name="pref_gallery_size_choices">
-    <item>"Stora"</item>
+    <item>"Stor"</item>
     <item>"Liten"</item>
   </string-array>
     <string name="pref_gallery_sort_title">"Sorteringsordning"</string>
@@ -79,7 +79,7 @@
     <string name="pref_gallery_sort_dialogtitle">"Sortera bilder"</string>
   <string-array name="pref_gallery_sort_choices">
     <item>"Nyast först"</item>
-    <item>"Nyaste först"</item>
+    <item>"Nyast sist"</item>
   </string-array>
     <string name="pref_gallery_slideshow_interval_title">"Bildspelsintervall"</string>
     <string name="pref_gallery_slideshow_interval_summary">"Ange hur länge varje bild ska visas i bildspelet"</string>
