@@ -65,7 +65,7 @@
     <string name="camera_pick_wallpaper">"Imágenes"</string>
     <string name="camera_setas_wallpaper">"Papel tapiz"</string>
     <string name="pref_gallery_category">"Configuración general"</string>
-    <string name="pref_slideshow_category">"Configuración de presentación de diapositivas"</string>
+    <string name="pref_slideshow_category">"Conf. present. de diapositivas"</string>
     <string name="pref_camera_general_settings_category">"Configuración general"</string>
     <string name="pref_gallery_size_title">"Visualizar tamaño"</string>
     <string name="pref_gallery_size_summary">"Seleccionar el tamaño de visualización de imágenes y videos"</string>
@@ -89,7 +89,7 @@
     <item>"3 segundos"</item>
     <item>"4 segundos"</item>
   </string-array>
-    <string name="pref_gallery_slideshow_transition_title">"Transición de la presentación de diapositivas"</string>
+    <string name="pref_gallery_slideshow_transition_title">"Transic. de la present. de diapos."</string>
     <string name="pref_gallery_slideshow_transition_summary">"Seleccionar el efecto utilizado al pasar de una diapositiva a otra"</string>
     <string name="pref_gallery_slideshow_transition_dialogtitle">"Transición de la presentación de diapositivas"</string>
   <string-array name="pref_gallery_slideshow_transition_choices">
@@ -102,7 +102,7 @@
     <string name="pref_gallery_slideshow_repeat_summary">"Reproducir la presentación de diapositivas más de una vez"</string>
     <string name="pref_gallery_slideshow_shuffle_title">"Arrastrar diapositivas"</string>
     <string name="pref_gallery_slideshow_shuffle_summary">"Mostrar imágenes en orden aleatorio"</string>
-    <string name="pref_camera_recordlocation_title">"Almacenar ubicación en imágenes"</string>
+    <string name="pref_camera_recordlocation_title">"Almac. ubic. en imág."</string>
     <string name="pref_camera_recordlocation_summary">"Grabar la ubicación en los datos de la imagen"</string>
     <string name="pref_camera_videoquality_category">"Calidad del video"</string>
     <string name="pref_camera_videoquality_title">"Seleccionar calidad de video"</string>

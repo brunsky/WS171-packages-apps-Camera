@@ -23,7 +23,7 @@
     <string name="gallery_camera_bucket_name">"Снимки, сделанные камерой"</string>
     <string name="gallery_camera_videos_bucket_name">"Видео"</string>
     <string name="switch_to_video_lable">"Переключить на видео"</string>
-    <string name="switch_to_camera_lable">"Переключить на камеру"</string>
+    <string name="switch_to_camera_lable">"Переключить на фото"</string>
     <string name="crop_label">"Обрезать фотографию"</string>
     <string name="view_label">"Просмотр картинки"</string>
     <string name="preferences_label">"Настройки камеры"</string>
@@ -102,7 +102,7 @@
     <string name="pref_gallery_slideshow_repeat_summary">"Воспроизвести слайд-шоу более одного раза"</string>
     <string name="pref_gallery_slideshow_shuffle_title">"Перемешать слайды"</string>
     <string name="pref_gallery_slideshow_shuffle_summary">"Показ фотографий в случайном порядке"</string>
-    <string name="pref_camera_recordlocation_title">"Сохранять местоположение в фотографиях"</string>
+    <string name="pref_camera_recordlocation_title">"Сохранять местоположение"</string>
     <string name="pref_camera_recordlocation_summary">"Записывать местоположение в данных фотографии"</string>
     <string name="pref_camera_videoquality_category">"Качество видео"</string>
     <string name="pref_camera_videoquality_title">"Выбор качества видео"</string>
@@ -133,7 +133,7 @@
     <string name="video_context_menu_header">"Параметры видео"</string>
     <string name="multiface_crop_help">"Нажмите лицо, чтобы начать."</string>
     <string name="photos_gallery_title">"Фотоальбом"</string>
-    <string name="pick_photos_gallery_title">"Выбор картинок"</string>
+    <string name="pick_photos_gallery_title">"Выберите картинку"</string>
     <string name="videos_gallery_title">"Фотоальбом"</string>
     <string name="pick_videos_gallery_title">"Выбор видео"</string>
     <string name="loading_progress_format_string">"Осталось: <xliff:g id="COUNTER">%d</xliff:g>"</string>

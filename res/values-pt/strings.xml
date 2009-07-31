@@ -78,8 +78,8 @@
     <string name="pref_gallery_sort_summary">"Selecione a ordem de classificação das imagens e dos vídeos."</string>
     <string name="pref_gallery_sort_dialogtitle">"Classificação de imagens"</string>
   <string-array name="pref_gallery_sort_choices">
-    <item>"Primeiro o mais recente"</item>
-    <item>"Último mais recente"</item>
+    <item>"O mais recente primeiro"</item>
+    <item>"O mais recente por último"</item>
   </string-array>
     <string name="pref_gallery_slideshow_interval_title">"Intervalo da apresentação de slides"</string>
     <string name="pref_gallery_slideshow_interval_summary">"Selecione a duração de exibição de cada slide na apresentação."</string>

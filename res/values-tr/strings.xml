@@ -106,7 +106,7 @@
     <string name="pref_camera_recordlocation_summary">"Konumu resim verilerinde kaydet"</string>
     <string name="pref_camera_videoquality_category">"Video kalitesi"</string>
     <string name="pref_camera_videoquality_title">"Video kalitesini seç"</string>
-    <string name="pref_camera_videoquality_entry_0">"Düşük (MMS iletileri için)"</string>
+    <string name="pref_camera_videoquality_entry_0">"Düşük (MMS mesajları için)"</string>
     <string name="pref_camera_videoquality_entry_1">"Yüksek (SD kart için)"</string>
     <string name="pref_camera_videoquality_dialogtitle">"Video kalitesi"</string>
     <string name="camerasettings">"Ayarlar"</string>
