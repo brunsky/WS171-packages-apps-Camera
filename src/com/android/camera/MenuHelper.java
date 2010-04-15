@@ -609,39 +609,41 @@ public class MenuHelper {
     }
 
     static void addCapturePictureMenuItems(Menu menu, final Activity activity) {
-        menu.add(0, MENU_CAPTURE_PICTURE, 1, R.string.capture_picture)
-            .setOnMenuItemClickListener(
-                 new MenuItem.OnMenuItemClickListener() {
-                     public boolean onMenuItemClick(MenuItem item) {
-                        Intent intent = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
-                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                        try {
-                               activity.startActivity(intent);
-                        } catch (android.content.ActivityNotFoundException e) {
-                            // Ignore exception
-                        }
-                return true;
-            }
-        })
-        .setIcon(android.R.drawable.ic_menu_camera);
+        //GILL MARKED
+        //menu.add(0, MENU_CAPTURE_PICTURE, 1, R.string.capture_picture)
+        //    .setOnMenuItemClickListener(
+        //         new MenuItem.OnMenuItemClickListener() {
+        //             public boolean onMenuItemClick(MenuItem item) {
+        //                Intent intent = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
+        //                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        //                try {
+        //                       activity.startActivity(intent);
+        //                } catch (android.content.ActivityNotFoundException e) {
+        //                    // Ignore exception
+        //                }
+        //        return true;
+        //    }
+        //})
+        //.setIcon(android.R.drawable.ic_menu_camera);
     }
 
     static void addCaptureVideoMenuItems(Menu menu, final Activity activity) {
-        menu.add(0, MENU_CAPTURE_VIDEO, 2, R.string.capture_video)
-            .setOnMenuItemClickListener(
-                 new MenuItem.OnMenuItemClickListener() {
-                     public boolean onMenuItemClick(MenuItem item) {
-                         Intent intent = new Intent(MediaStore.INTENT_ACTION_VIDEO_CAMERA);
-                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                         try {
-                             activity.startActivity(intent);
-                         } catch (android.content.ActivityNotFoundException e) {
-                             // Ignore exception
-                         }
-                return true;
-            }
-        })
-        .setIcon(R.drawable.ic_menu_camera_video_view);
+        //GILL MARKED
+        //menu.add(0, MENU_CAPTURE_VIDEO, 2, R.string.capture_video)
+        //    .setOnMenuItemClickListener(
+        //         new MenuItem.OnMenuItemClickListener() {
+        //             public boolean onMenuItemClick(MenuItem item) {
+        //                 Intent intent = new Intent(MediaStore.INTENT_ACTION_VIDEO_CAMERA);
+        //                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        //                 try {
+        //                     activity.startActivity(intent);
+        //                 } catch (android.content.ActivityNotFoundException e) {
+        //                     // Ignore exception
+        //                 }
+        //        return true;
+        //    }
+        //})
+        //.setIcon(R.drawable.ic_menu_camera_video_view);
     }
 
     static void addCaptureMenuItems(Menu menu, final Activity activity) {

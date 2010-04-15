@@ -68,14 +68,17 @@ public class MovieView extends Activity implements MediaPlayer.OnErrorListener, 
 
         mVideoView = (VideoView) findViewById(R.id.surface_view);
         mProgressView = findViewById(R.id.progress_indicator);
-        Intent intent = getIntent();
-        if (intent.hasExtra(MediaStore.EXTRA_SCREEN_ORIENTATION)) {
+	Intent intent = getIntent();
+	/*        
+	if (intent.hasExtra(MediaStore.EXTRA_SCREEN_ORIENTATION)) {
             int orientation = intent.getIntExtra(MediaStore.EXTRA_SCREEN_ORIENTATION,
                     ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
             if (orientation != getRequestedOrientation()) {
                 setRequestedOrientation(orientation);
             }
         }
+	*/
+	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         mFinishOnCompletion = intent.getBooleanExtra(MediaStore.EXTRA_FINISH_ON_COMPLETION, true);
         mUri = intent.getData();
 
@@ -126,7 +129,12 @@ public class MovieView extends Activity implements MediaPlayer.OnErrorListener, 
             }
         }
     }
-
+/*
+    @Override
+    public void onConfigurationChanged(android.content.res.Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+    }
+*/
     private static boolean uriSupportsBookmarks(Uri uri) {
         String scheme = uri.getScheme();
         String authority = uri.getAuthority();
@@ -196,7 +204,7 @@ public class MovieView extends Activity implements MediaPlayer.OnErrorListener, 
         } catch (SQLiteException e) {
             // ignore. can happen if the content doesn't support a bookmark column.
         } catch (UnsupportedOperationException e) {
-            // ignore. can happen if the external volume is already detached.
+            // ignore. can happen if the external volume is already detached.getIntExtragetIntExtra
         }
     }
 

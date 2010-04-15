@@ -17,7 +17,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="all_images">"すべての写真"</string>
     <string name="all_videos">"すべての動画"</string>
-    <string name="camera_label">"カメラ"</string>
+    <string name="camera_label">"ギャラリー"</string>
     <string name="video_camera_label">"ビデオ録画"</string>
     <string name="gallery_picker_label">"ギャラリー"</string>
     <string name="gallery_camera_bucket_name">"カメラ (写真)"</string>
@@ -26,7 +26,7 @@
     <string name="switch_to_camera_lable">"写真に切替"</string>
     <string name="crop_label">"トリミング"</string>
     <string name="view_label">"画像を表示"</string>
-    <string name="preferences_label">"カメラ設定"</string>
+    <string name="preferences_label">"設定"</string>
     <string name="wait">"お待ちください..."</string>
     <string name="no_storage">"カメラを使用する前にSDカードを挿入してください。"</string>
     <string name="not_enough_space">"SDカードがいっぱいです。"</string>
@@ -52,7 +52,7 @@
     <string name="camera_toss">"削除"</string>
     <string name="camera_gallery">"ギャラリー"</string>
     <string name="camera_share">"共有"</string>
-    <string name="camera_set">"この画像を登録する"</string>
+    <string name="camera_set">"ウォールペーパーに設定"</string>
     <string name="camera_play">"再生"</string>
     <string name="camera_attach">"添付"</string>
     <string name="camera_cancel">"キャンセル"</string>

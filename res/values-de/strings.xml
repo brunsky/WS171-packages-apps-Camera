@@ -17,7 +17,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="all_images">"Alle Bilder"</string>
     <string name="all_videos">"Alle Videos"</string>
-    <string name="camera_label">"Kamera"</string>
+    <string name="camera_label">"Galerie"</string>
     <string name="video_camera_label">"Camcorder"</string>
     <string name="gallery_picker_label">"Galerie"</string>
     <string name="gallery_camera_bucket_name">"Kamerabilder"</string>
@@ -26,7 +26,7 @@
     <string name="switch_to_camera_lable">"Zu Kamera wechseln"</string>
     <string name="crop_label">"Bild zuschneiden"</string>
     <string name="view_label">"Bild anzeigen"</string>
-    <string name="preferences_label">"Kameraeinstellungen"</string>
+    <string name="preferences_label">"Einstellungen"</string>
     <string name="wait">"Bitte warten..."</string>
     <string name="no_storage">"Legen Sie vor Verwendung der Kamera eine SD-Karte ein."</string>
     <string name="not_enough_space">"Ihre SD-Karte ist voll."</string>
@@ -52,7 +52,7 @@
     <string name="camera_toss">"Löschen"</string>
     <string name="camera_gallery">"Galerie"</string>
     <string name="camera_share">"Senden"</string>
-    <string name="camera_set">"Festlegen als"</string>
+    <string name="camera_set">"als Hintergrundsbild setzen"</string>
     <string name="camera_play">"Wiedergeben"</string>
     <string name="camera_attach">"Anhängen"</string>
     <string name="camera_cancel">"Abbrechen"</string>

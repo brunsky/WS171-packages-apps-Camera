@@ -24,7 +24,7 @@
     <string name="all_videos">All videos</string>
     
     <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
-    <string name="camera_label">Camera</string>
+    <string name="camera_label">Gallery</string>
 
     <!-- label for the 'video recording application shown in the top level 'all applications' -->
     <string name="video_camera_label">Camcorder</string>
@@ -54,7 +54,7 @@
     <string name="view_label">View picture</string>
 
     <!-- menu pick: go to the preferences screen for the camera or image gallery -->
-    <string name="preferences_label">Camera settings</string>
+    <string name="preferences_label">settings</string>
 
     <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">Please wait\u2026</string>
@@ -131,7 +131,7 @@
     <string name="camera_share">Share</string>
 
     <!-- button indicating that the picture just taken should be set as a contact photo, wallpaper, etc -->
-    <string name="camera_set">Set as</string>
+    <string name="camera_set">Set as Wallpaper</string>
 
     <!-- button indicating that the video just taken should be played -->
     <string name="camera_play">Play</string>

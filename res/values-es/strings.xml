@@ -17,7 +17,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="all_images">"Todas las imágenes"</string>
     <string name="all_videos">"Todos los vídeos"</string>
-    <string name="camera_label">"Cámara"</string>
+    <string name="camera_label">"Galería"</string>
     <string name="video_camera_label">"Videocámara"</string>
     <string name="gallery_picker_label">"Galería"</string>
     <string name="gallery_camera_bucket_name">"Imágenes de cámara"</string>
@@ -26,7 +26,7 @@
     <string name="switch_to_camera_lable">"Cambiar a cámara"</string>
     <string name="crop_label">"Recortar imagen"</string>
     <string name="view_label">"Ver imagen"</string>
-    <string name="preferences_label">"Configuración de cámara"</string>
+    <string name="preferences_label">"Configuración"</string>
     <string name="wait">"Por favor, espera..."</string>
     <string name="no_storage">"Inserta o activa la tarjeta SD para poder utilizar la cámara."</string>
     <string name="not_enough_space">"La tarjeta SD está llena."</string>
@@ -52,7 +52,7 @@
     <string name="camera_toss">"Suprimir"</string>
     <string name="camera_gallery">"Galería"</string>
     <string name="camera_share">"Compartir"</string>
-    <string name="camera_set">"Establecer como"</string>
+    <string name="camera_set">"Fije como papel pintado"</string>
     <string name="camera_play">"Reproducir"</string>
     <string name="camera_attach">"Adjuntar"</string>
     <string name="camera_cancel">"Cancelar"</string>

@@ -9,7 +9,7 @@
     <!-- Needed by the ZoomRingController to set the bit saying we've already shown the
          tutorial toast. -->
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    <application android:icon="@drawable/ic_launcher_camera"
+    <application android:icon="@drawable/ic_launcher_gallery"
             android:label="@string/camera_label"
             android:taskAffinity="">
         <service android:name="UploadService" android:process="android.process.media" />
@@ -25,11 +25,6 @@
                 android:clearTaskOnLaunch="true"
                 android:taskAffinity="android.task.camera">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <intent-filter>
                 <action android:name="android.media.action.IMAGE_CAPTURE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -41,16 +36,11 @@
         <activity android:name="VideoCamera"
                 android:label="@string/video_camera_label"
                 android:configChanges="orientation|keyboardHidden"
-                android:icon="@drawable/ic_launcher_video_camera"
+                android:icon="@drawable/ic_launcher_gallery"
                 android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
                 android:screenOrientation="landscape"
                 android:clearTaskOnLaunch="true"
                 android:taskAffinity="android.task.videocamera">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
             <intent-filter>
                 <action android:name="android.media.action.VIDEO_CAMERA" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -137,7 +127,7 @@
         </activity>
         <activity android:name="MovieView"
                 android:label="@string/movieviewlabel"
-                android:screenOrientation="landscape"
+                android:screenOrientation="portrait"
                 android:configChanges="orientation|keyboardHidden"
                 android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
              <intent-filter>

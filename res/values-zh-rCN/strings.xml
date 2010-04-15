@@ -17,7 +17,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="all_images">"所有图片"</string>
     <string name="all_videos">"所有视频"</string>
-    <string name="camera_label">"相机"</string>
+    <string name="camera_label">"图库"</string>
     <string name="video_camera_label">"摄像机"</string>
     <string name="gallery_picker_label">"图库"</string>
     <string name="gallery_camera_bucket_name">"用相机拍摄的照片"</string>
@@ -26,7 +26,7 @@
     <string name="switch_to_camera_lable">"切换到相机"</string>
     <string name="crop_label">"修剪图片"</string>
     <string name="view_label">"查看图片"</string>
-    <string name="preferences_label">"相机设置"</string>
+    <string name="preferences_label">"设置"</string>
     <string name="wait">"请稍候..."</string>
     <string name="no_storage">"使用相机前请先插入 SD 卡。"</string>
     <string name="not_enough_space">"SD 卡已满。"</string>
@@ -52,7 +52,7 @@
     <string name="camera_toss">"删除"</string>
     <string name="camera_gallery">"图库"</string>
     <string name="camera_share">"分享"</string>
-    <string name="camera_set">"设置为"</string>
+    <string name="camera_set">"设为桌面背景"</string>
     <string name="camera_play">"播放"</string>
     <string name="camera_attach">"附加"</string>
     <string name="camera_cancel">"取消"</string>
