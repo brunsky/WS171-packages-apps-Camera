@@ -69,7 +69,7 @@ public class MovieView extends Activity implements MediaPlayer.OnErrorListener, 
         mVideoView = (VideoView) findViewById(R.id.surface_view);
         mProgressView = findViewById(R.id.progress_indicator);
 	Intent intent = getIntent();
-	/*        
+       
 	if (intent.hasExtra(MediaStore.EXTRA_SCREEN_ORIENTATION)) {
             int orientation = intent.getIntExtra(MediaStore.EXTRA_SCREEN_ORIENTATION,
                     ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
@@ -77,8 +77,7 @@ public class MovieView extends Activity implements MediaPlayer.OnErrorListener, 
                 setRequestedOrientation(orientation);
             }
         }
-	*/
-	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         mFinishOnCompletion = intent.getBooleanExtra(MediaStore.EXTRA_FINISH_ON_COMPLETION, true);
         mUri = intent.getData();
 
